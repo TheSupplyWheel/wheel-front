@@ -1,0 +1,65 @@
+.acc_opening{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.designBool,.designBool2{
+    position: absolute;
+    width: 30vh;
+    height: 30vh;
+    background-color: #287F71;
+    border-radius: 50%;
+    right: -5%;
+    bottom: -10%;
+}
+.designBool2{
+    width: 20vh;
+    height: 20vh;
+    right: 10%;
+    bottom: -10%;
+}
+.elementheading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Montserrat';
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+.elementheading__{
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.submitAccOpenform,.proccedToFinish{
+    grid-column: 1/3;
+    background-image: linear-gradient(to left bottom, #287F71, #53998D );
+    border: none;
+    border-radius: 3rem;
+    color: #fff;
+    font-weight: 600;
+    padding: 1rem ;
+    cursor: pointer;
+    text-decoration: none;
+}
+.proccedToFinish{
+    grid-column: 1/4;
+    display: inline;
+    font-family: 'Montserrat';
+}
+.visibility{
+    visibility: hidden;
+}
+.uploadKYC_BTN{
+    text-align: center;
+    background-color: #287F71;
+    width: 100%;
+}
+.label{
+   font-size: 1.4rem;
+}
+.checkNote{
+    font-size: 1.6rem;
+}

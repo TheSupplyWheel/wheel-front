@@ -1,0 +1,51 @@
+.templateOne,.templateTwo{
+    width: 28rem;
+    height: 65vh;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.topScreen{
+    height: 3vh;
+    background-color: #000;
+
+}
+.screen{
+    height: 55vh;
+    border-left: 0.2rem solid #000;
+    border-right: 0.2rem solid #000;
+    background-color: #287f7000;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.bottomBtns{
+    background-color: #000;
+    height: 7vh;
+}
+.prod{
+    border: 0.1rem solid #287F71;
+    border-radius: 0 1rem 1rem 0;
+    border-left: 0.5rem solid #287F71;
+    box-shadow: 0 0 0.3rem #287F71;
+}
+.prod__{
+    border: 0.1rem solid #287F71;
+    border-left: 0.1rem solid #287F71;
+    border-bottom: 0.5rem solid #287F71;
+    border-radius: 1rem 1rem 0rem 0;
+
+
+}
+.storeHead__{
+    font-size: 1.6rem;
+}
+.paySecondDesign{
+    grid-column: 1/3;
+}
+.storeCustomization{
+    background-color: #287f7015;
+    grid-column: 3/5;
+    border-radius: 1rem;
+}
+.colorpicker{
+    font-size: 1.6rem;
+}

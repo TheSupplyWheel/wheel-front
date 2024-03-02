@@ -1,0 +1,78 @@
+.dashboard{
+    height: 100vh;
+    width: 100%;
+}
+.nav,.flowpage{
+    grid-column: 1/3;
+    height: 100%;
+    width: 100%;
+}
+.flowpage{
+    grid-column: 3/13;
+    background-color: #EAF2F1;
+
+}
+.logoBox{
+    width: 7vh;
+    height: 7vh;
+    background-color: gray;
+    border-radius: 10rem;
+}
+.name{
+    font-size: 1.6rem;
+}
+.logoContainer{
+    margin-bottom: 3.2rem;
+}
+.menuHead{
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+.navLinkBtn{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
+    color: #000;
+    text-transform: uppercase;
+}
+.navLinkBtn:hover{
+    background-color: #287F71;
+    border-radius: 3rem;
+    color: #fff;
+}
+.feedback{
+    justify-content:end;
+}
+.navLinkBtn_feedback{
+    background-color: #EB862A;
+    border-radius: 3rem;
+    text-align: center;
+    color: #fff;
+    margin-top: 2rem;
+}
+.menuContainerOne,.menuContainerTwo{
+    padding-bottom: 1.6rem;
+}
+.menuContainerTwo{
+    padding-top: 1.6rem;
+}
+.topFlowpage{
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+}
+.welcome{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.displayofelements{
+    width: 100%;
+    height: 90vh;
+}
+.netDisplay{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.1rem #000;
+}

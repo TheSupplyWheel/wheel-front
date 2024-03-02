@@ -1,0 +1,43 @@
+.addingClients{
+    width: 100%;
+    height: 100%;  
+}
+.formOfAddingClients{
+    grid-column: 1/4;
+    background-color: #287F71;
+    margin: -1.6rem;
+    margin-right: 0;
+    border-radius: 0 2rem 2rem 0;
+    box-shadow: 0 0 0.3rem #000;
+}
+.PriceSettingForClients{
+    grid-column: 4/9;
+    padding-left: 1.6rem;
+}
+.info{
+    background-color: #287f702c;
+    border-radius: 2rem;
+}
+.credentialInfo{
+    font-size: 1.4rem;
+}
+.priceSetting{
+    font-size: 1.6rem;
+}
+.prdpricelabel{
+    text-align: center;
+}
+.products{
+    background-color: #287f7042;
+    border-radius: 2rem;
+}
+.prdname{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.input{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 2rem;
+    font-family: 'Montserrat';
+}

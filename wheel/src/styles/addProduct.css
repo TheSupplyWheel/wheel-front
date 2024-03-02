@@ -1,0 +1,24 @@
+.heading__update{
+    color: #000;
+}
+.catagory{
+    text-align: center;
+}
+.productExisting{
+    background-color: #287f701a;
+    border-radius: 0 1rem 1rem 0;
+    border-left: 0.5rem solid #287f70;
+}
+.excelProdlabel{
+    font-size: 1.6rem;
+}
+
+.addprdForm{
+    position: relative;
+}
+
+.downloadExcel{
+    position: absolute;
+    right: 0;
+    top: 0;
+}

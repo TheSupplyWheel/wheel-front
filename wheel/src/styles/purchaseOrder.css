@@ -1,0 +1,60 @@
+.subsidaryHeading{
+    grid-column: 1/4;
+    font-size: 1.6rem;
+}
+.totalcost{
+    font-size: 1.6rem;
+}
+.purchaseOrderBtn{
+    width: 40vh;
+    grid-column: 1/4;
+}
+.formPuchaseOrder{
+    grid-column: 1/4;
+}
+.addpurchasebtnBox{
+    text-align: center;
+}
+.approveOrders,.prevOrders{
+    height: 70vh !important;
+    overflow: scroll !important;
+    overflow-x: hidden !important;
+}
+.table{
+    border-collapse: collapse;
+    margin-bottom: 1.6rem;
+}
+.table thead th, .table tfoot th{
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    font-family: 'Montserrat';
+    background-color: #287F71;
+    color: #fff;
+}
+.table tbody tr td{
+    text-align: center;
+    padding: 1rem;
+    background-color: #287f7018;
+    font-size: 1.4rem;
+    border-bottom: 0.1rem solid #287f7038;
+}
+.table tbody tr{
+    transition: all 0.2s;
+}
+.table tbody tr:hover{
+    background-color: #287f70a6;
+    color: #fff;
+}
+
+.approvalStatus span{
+    background-color: red !important;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: #fff;
+    box-shadow: 0 0 0.5rem #000;
+}
+.downloadPurchaseOrder{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
